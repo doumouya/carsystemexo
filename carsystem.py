@@ -47,12 +47,10 @@ def main():
                     num_days = int(num_days)
                     break
                 except ValueError:
-                    print('Error, please type a correct number: ')
+                    print('Error, please type a correct number')
             fare = Car.calculateFare(type_car, num_days)
             print('Total =', fare)
         else:
             quit()
 
-
 main()
-
